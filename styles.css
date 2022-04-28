@@ -1,0 +1,30 @@
+body {
+  margin:0px;
+  padding:0px;
+  background-color:blanchedalmond;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+header h1 {
+  color: darkred;
+  text-align: center;
+  font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+nav li {
+    display:inline-block;
+    margin-left: 300px;
+  
+}
+
+nav a {
+  font-size:22px;
+  text-decoration: none;
+  color: #550F00;
+}
+
+ul.no bullets {
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margins */
+}
