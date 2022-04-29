@@ -1,26 +1,29 @@
 body {
   margin:0px;
   padding:0px;
-  background-color:blanchedalmond;
+  width: 100%;
+  background-color: #fffdd9;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
 header h1 {
-  color: darkred;
+  color:rgba(184, 39, 20, 0.95); 
   text-align: center;
-  font-family:Verdana, Geneva, Tahoma, sans-serif
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+  letter-spacing: .2em
+  
 }
 
 nav li {
     display:inline-block;
-    margin-left: 300px;
-  
+    margin-left: 400px;
 }
 
-nav a {
+nav link a {
   font-size:22px;
   text-decoration: none;
   color: #550F00;
+  cursor:pointer;
 }
 
 ul.no bullets {
@@ -28,3 +31,47 @@ ul.no bullets {
   padding: 0; /* Remove padding */
   margin: 0; /* Remove margins */
 }
+
+.main-section {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%
+}
+
+.main-section Img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.Image-Quotes {
+  width: 20%;
+  display: inline-block;
+}
+
+
+
+.Image-Quotes Img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.Image-Quotes p {
+  margin-left: 20%;
+}
+
+
+
+
+
+
+
+
+  
+
