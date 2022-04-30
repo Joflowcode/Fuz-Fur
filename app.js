@@ -1,21 +1,26 @@
 'use strict'
 
-let username = prompt('How lovely of you to stop by. What shall we call you?');
-console.log(userName);
+// declare a variable, assign it the value of the user's input
+var MembershipStatus = prompt("Hello, Welcome to Fuz & Fur Fine Art & Masterpieces. Are you a sponsor?");
+ 
+// print the user's input to the console
+console.log(MembershipStatus);
 
-if (username === "Diamond Gold Emerald Platinum Member") {
-    console.log("Welcome back esteemed guest."); 
+// checking is user is a member or new site visitor
+if (MembershipStatus === "yes") {
+    console.log("Welcome back to Fuz & Fur. You are going to love our new collection");
 }
 
-} else {
-    console.log("That username isn't recognized but we welcome you.");
-
-let animal = prompt ('What is your favorite animal?');
-let message; 
-
-if(animal === "cat") {
-    console.log("You have excellent taste. Rememebr the code 1234 for acces to our super secret vault collection.");
-
-} else {
-    console.log("You have good taste.");
+// what to do if they are not a sponsor member
+else {
+    console.log("Welcome to Fuz & Fur Fine Art & Masterpiece Collection. Feel contact us at our email if need curator or art agent assistance. We're glad to welcome you.")
 }
+
+// selects the HTML button element from our document
+var button =
+document.querySelector( 'button')
+
+
+
+
+

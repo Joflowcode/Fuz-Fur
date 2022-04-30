@@ -52,7 +52,10 @@ ul.no bullets {
   display: inline-block;
 }
 
+.main-section {
+  font-size: 25px;
 
+}
 
 .Image-Quotes Img {
   display: block;
@@ -64,9 +67,6 @@ ul.no bullets {
 .Image-Quotes p {
   margin-left: 20%;
 }
-
-
-
 
 
 
