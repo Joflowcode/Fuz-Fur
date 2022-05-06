@@ -1,6 +1,6 @@
 'use strict'; 
 
-let userName = prompt ("What is your name?");
+let userName = prompt("What is your name?");
 console.log(userName);
 
 if (userName === "Jo Flow") {
@@ -15,11 +15,11 @@ let MembershipStatus = prompt("Hello, " + userName + ". Are you a sponsor of Fuz
 console.log(MembershipStatus)
 
 // checking is user is a member or new site visitor
-if (MembershipStatus === "yes" || "yeah" || "ye" || "yas"){
+if (MembershipStatus === "yes" || MembershipStatus === "yeah" || MembershipStatus === "ye" || MembershipStatus === "yas"){
     console.log("Welcome back to Fuz & Fur. You are going to love our new collection");
-    
+
    // what to do if they are not a sponsor member
-} else if (MembershipStatus === "no" || "nah" || "n") {
+} else if (MembershipStatus === "no" || MembershipStatus === "nah" || MembershipStatus === "n"){
     console.log("Welcome to Fuz & Fur Fine Art & Masterpiece Collection. Feel contact us at our email if need curator or art agent assistance. We are glad to have you.");
 
 } else {
@@ -31,7 +31,6 @@ if (MembershipStatus === "yes" || "yeah" || "ye" || "yas"){
 document.write('Hello ' + userName)
 
 // selects the HTML button element from our document
-
 
 
 
